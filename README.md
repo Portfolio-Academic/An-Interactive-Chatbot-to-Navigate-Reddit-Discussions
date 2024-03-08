@@ -35,6 +35,25 @@ The `data_preprocess.ipynb` notebook is designed to clean and prepare data from 
 ### Process Steps:
 
 **Season and Time of Day:** Adds new columns to classify each post by the season and part of the day it was created.
+
+### Season Classification Table
+
+| Season  | Months         |
+|---------|----------------|
+| Winter  | December, January, February |
+| Spring  | March, April, May           |
+| Summer  | June, July, August          |
+| Fall    | September, October, November|
+
+### Part of Day Classification Table
+
+| Part of Day | Time Range      |
+|-------------|-----------------|
+| Morning     | 5 AM to 11:59 AM|
+| Afternoon   | 12 PM to 4:59 PM|
+| Evening     | 5 PM to 8:59 PM |
+| Night       | 9 PM to 4:59 AM |
+
  **Comments Counting:** Counts the number of comments for each post.
  **Text Cleaning:** Implements a series of cleaning steps to:
    - Fill missing values with spaces.
